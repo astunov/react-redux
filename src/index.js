@@ -6,7 +6,10 @@ import { createStore, applyMiddleware } from 'redux';
 import App from './components/app';
 import reducers from './reducers';
 
+
+import 'materialize-css/sass/materialize.scss'
 import './style/style.scss';
+
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 

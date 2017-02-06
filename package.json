@@ -38,8 +38,10 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "latest",
     "extract-text-webpack-plugin": "^2.0.0-beta",
+    "file-loader": "latest",
     "flow-bin": "^0.38.0",
     "lodash": "^3.10.1",
+    "materialize-css": "^0.98.0",
     "node-sass": "^4.5.0",
     "postcss-fixes": "^1.4.2",
     "postcss-loader": "^1.2.2",
@@ -56,7 +58,7 @@
     "webpack": "latest",
     "webpack-dev-server": "latest"
   },
-    "browserslist": [
+  "browserslist": [
     "> 1%",
     "last 2 version",
     "IE >= 8"
